@@ -1,38 +1,169 @@
 .App {
+  height: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+  margin-bottom: 150px;
+  height:20vh;
+  background-color: #323c8a;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.form input{
+  width:300px;
+  height: 60px;
+  margin: 10px;
+  font-size: 25px;
+}
+.card{
+  
+  width: 100%;
+  display: grid;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 32%;
+  grid-template-columns: 1fr 6fr repeat(4, 6fr) 5fr 2.5fr 2.5fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 0px; 
+  place-content: start;
+  place-items: start;
+  justify-items: stretch;
+  text-align: left;
+  padding: 5px;
+}
+#updateInput{
+  height: 30px;
+  width: 100px;
+  margin-bottom: 10px;
+
+}
+
+.header__logo{
+ width: 20vw;
+ height: 15vh;
+ display: flex;
+ justify-content: flex-start;
+
+}
+
+
+.sub-header1{
+  font-size: large;
+  display: flex;
+  font-style: italic;
+  margin-left: 32%; 
+  color: #323c8a;
+}
+.sub-header21{
+   margin-left: 34px;
+
+}
+.sub-header31{
+  margin-left: 198px;
+}
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-top:5vh;
+}
+.loginbutton{
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  height: 5vh;
+  width: 5vw;
+  padding-top: 1.3vh;
+  transition-duration: 0.4s;
   color: white;
+  border-radius: .8rem;
+  background: #323c8a;
+  
+
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.signinbutton{
+  display: flex;
+ justify-content: center;
+  height:5vh;
+  padding-top: 1.3vh;
+  color: white;
+  width: 5vw;
+  margin-left: 2vw;
+  transition-duration: 0.4s;
+  background: #323c8a;
+  border-radius: .8rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.infobutton{
+  width: 5vw;
+  height:3vh;
+  transition-duration: 0.4s;
+  background: white;
+  border-radius: .8rem;
+}
+.infobutton:hover {
+  background-color: #0d3444; /* Green */
+  color: #faf8f8;
+}
+.loginbutton:hover {
+  background-color: #0d3444;  /* Green */
+  color: #faf8f8;
+}
+.signinbutton:hover {
+  background-color: #0d3444; /* Green */
+  color: #faf8f8;
+}
+.Ilink{
+  height: 7vh;
+  width: 9vw;
+  background: #d934d3;
+  background-image: -webkit-linear-gradient(top, #d934d3, #342bb8);
+  background-image: -moz-linear-gradient(top, #d934d3, #342bb8);
+  background-image: -ms-linear-gradient(top, #d934d3, #342bb8);
+  background-image: -o-linear-gradient(top, #d934d3, #342bb8);
+  background-image: linear-gradient(to bottom, #d934d3, #342bb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 3px 3px 3px #0d0c0d;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #084266 2px;
+  text-decoration: none;
+  margin-top: -15vh;
+  margin-bottom: 3vh;
+  margin-left: 87vw;
+ 
+  
+}
+.Ilink:hover{
+  background: #0f6aa3;
+  background-image: -webkit-linear-gradient(top, #0f6aa3, #0d5585);
+  background-image: -moz-linear-gradient(top, #0f6aa3, #0d5585);
+  background-image: -ms-linear-gradient(top, #0f6aa3, #0d5585);
+  background-image: -o-linear-gradient(top, #0f6aa3, #0d5585);
+  background-image: linear-gradient(to bottom, #0f6aa3, #0d5585);
+  text-decoration: none;
+}
+.Ili{
+  margin-top: -8vh;
+}
+.headApp{
+  margin-top: -5.4vh;
 }

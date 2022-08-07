@@ -1,0 +1,75 @@
+.body
+{
+    margin-top: 5vh;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.Left{
+width: 70vw;
+}
+.Right{
+    
+    margin-left: 50vw;
+    }
+.LandImage{
+    height: 100%;
+    width: 30vw;
+}
+.SignButton{
+    margin-left: 28vw;
+    margin-top: 10vh;
+    background: #10c6cc;
+    background-image: -webkit-linear-gradient(top, #10c6cc, #a52cb8);
+    background-image: -moz-linear-gradient(top, #10c6cc, #a52cb8);
+    background-image: -ms-linear-gradient(top, #10c6cc, #a52cb8);
+    background-image: -o-linear-gradient(top, #10c6cc, #a52cb8);
+    background-image: linear-gradient(to bottom, #10c6cc, #a52cb8);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1e3696 1px;
+    text-decoration: none;
+}
+.SignButton:hover {
+    background: #2d16de;
+    background-image: -webkit-linear-gradient(top, #2d16de, #d934ce);
+    background-image: -moz-linear-gradient(top, #2d16de, #d934ce);
+    background-image: -ms-linear-gradient(top, #2d16de, #d934ce);
+    background-image: -o-linear-gradient(top, #2d16de, #d934ce);
+    background-image: linear-gradient(to bottom, #2d16de, #d934ce);
+    text-decoration: none;
+  }
+  .bottombar{
+    height:23vh;
+    background-color: #323c8a;
+    margin-top: 4vh;
+    display:flex;
+  }
+  .Bparagraph{
+    padding-left: 3vw;
+    padding-top: 5vh;
+    font-size: 40px;
+    color: white;
+    margin-bottom: .5vh;
+  }
+  .Bparagraphb{
+    font-size: 20px;
+    color: white;
+    padding-left: 3vw;
+  }
+  .rightnav{
+    margin-left: 89vh;
+  }
+  .Bparagraph2{
+    padding-left: 3vw;
+    padding-top: 3vh;
+    font-size: 40px;
+    color: white;
+    margin-bottom: .5vh;
+  }

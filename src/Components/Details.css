@@ -1,0 +1,74 @@
+.header {
+  margin-bottom: 150px;
+  height: 20vh;
+  background-color: #323c8a;
+  padding-top: 50px;
+  margin-top: 5vh;
+ 
+}
+.h1{
+  margin-left: 37%;
+}
+.sub-header{
+  font-size: large;
+  display: flex;
+  font-style: italic;
+  margin-left: 2%; 
+  color: #323c8a;
+  margin-top: 150px;
+}
+
+.sub-headerb{
+  margin-left: 30px;
+}
+.sub-headerc{
+  margin-left: 200px;
+}
+.sub-headerd{
+  margin-left: 230px;
+}
+.sub-headere{
+  margin-left: 180px;
+}
+.sub-headerf{
+  margin-left: 226px;
+}
+.sub-headerg{
+  margin-left: 222px;
+}
+.sub-headerh{
+  margin-left: 123px;
+}
+.cardD{
+  
+  width: 100%;
+  display: grid;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 2%;
+  grid-template-columns: 1fr 6fr repeat(4, 6fr) 5fr 2.5fr 2.5fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 1px;
+  grid-row-gap: 0px; 
+  place-content: start;
+  place-items: start;
+  justify-items: stretch;
+  text-align: left;
+  padding: 5px;
+}
+.button1{
+  transition-duration: 0.4s;
+  width:60px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+button:hover {
+  background-color: #0eb4f0; /* Green */
+  color: #faf8f8;
+}
+.header__logoD{
+  width: 20vw;
+  height: 15vh;
+  display: flex;
+  justify-content: flex-start;
+}

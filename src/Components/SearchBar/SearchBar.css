@@ -1,0 +1,16 @@
+.searchBar{
+  
+    margin-top: 13vh;
+    margin-left: 35vw;
+}
+
+.searchBar__input{
+    width: 40%;
+    border: 3px solid #94b49f;
+ 
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #94b49f;
+}
