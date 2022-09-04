@@ -56,9 +56,9 @@ function Details() {
             <div>{val[`phone`]}</div>
             <div>{val[`fm_install_base`]}</div>
             <div>{val[`gap_potential`]}</div>
-            <Link to={`/Update/${val.GridContacts}`}>
+            {   sessionStorage.getItem("email") === "Admiin" && <Link to={`/Update/${val.GridContacts}`}>
               <button className="button1">Edit</button>
-            </Link>
+            </Link>}
           </div>
         ))}
       </div>

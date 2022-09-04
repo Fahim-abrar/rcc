@@ -50,7 +50,7 @@
 }
 
 .header__logo{
- width: 20vw;
+ width: 25vw;
  height: 15vh;
  display: flex;
  justify-content: flex-start;
@@ -166,4 +166,41 @@
 }
 .headApp{
   margin-top: -5.4vh;
+}
+.Logout{
+  margin-top: 3vh;
+  height: 7vh;
+  width: 9vw;
+  background: #8134d9;
+  background-image: -webkit-linear-gradient(top, #8134d9, #2980b9);
+  background-image: -moz-linear-gradient(top, #8134d9, #2980b9);
+  background-image: -ms-linear-gradient(top, #8134d9, #2980b9);
+  background-image: -o-linear-gradient(top, #8134d9, #2980b9);
+  background-image: linear-gradient(to bottom, #8134d9, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+}
+
+.Logout:hover {
+  background: #3cfcb6;
+  background-image: -webkit-linear-gradient(top, #3cfcb6, #3498db);
+  background-image: -moz-linear-gradient(top, #3cfcb6, #3498db);
+  background-image: -ms-linear-gradient(top, #3cfcb6, #3498db);
+  background-image: -o-linear-gradient(top, #3cfcb6, #3498db);
+  background-image: linear-gradient(to bottom, #3cfcb6, #3498db);
+  text-decoration: none;
+}
+.top{
+ display: flex;
+ margin-top: -2.8vh;
+}
+.logoutcon{
+margin-left: 128vh;
 }
